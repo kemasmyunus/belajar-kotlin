@@ -96,3 +96,40 @@ fun main() {
     orang1.perkenalan()
 }
 ```
+
+## 9. Null Safety
+```kotlin
+var nama: String? = null
+println(nama?.length) // Menggunakan safe call operator
+```
+
+## 10. Collections
+```kotlin
+val listAngka = listOf(1, 2, 3, 4, 5)
+for (angka in listAngka) {
+    println(angka)
+}
+```
+
+## 11. Lambda Expressions
+```kotlin
+val kali = { a: Int, b: Int -> a * b }
+println(kali(3, 4))
+```
+
+## 12. Coroutines (Dasar)
+```kotlin
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    launch {
+        delay(1000L)
+        println("Coroutine selesai!")
+    }
+    println("Menunggu coroutine...")
+}
+```
+
+---
+
+Itulah dasar-dasar Kotlin. Selamat belajar!
