@@ -15,3 +15,16 @@ Bahasa pemrograman Kotlin lebih elegan dan sederhana dibanding Java
 Kotlin menjadi bahasa pemrograman utama untuk pengembangan aplikasi Android
 Spring (framework backend Java terpopuler) sekarang sudah mendukung Kotlin 
 
+software development kit
+
+SDK adalah perangkat lunak yang digunakan untuk proses development
+SDK digunakan untuk melakukan kompilasi kode program Kotlin dan menjalankan kode program Kotlin
+Java Development Kit versi 8 keatas
+https://jdk.java.net/
+
+Proses Development Program Kotlin
+Integrated Development Environment
+IDE adalah smart editor yang digunakan untuk mengedit kode program Kotlin
+IDE juga digunakan untuk melakukan otomatisasi proses kompilasi kode program Kotlin dan otomatisasi proses menjalankan program Kotlin
+JetBrains IntelliJ IDEA
+https://www.jetbrains.com/idea/
