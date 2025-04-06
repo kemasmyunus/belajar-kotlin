@@ -33,3 +33,33 @@ Penjelasan:
 - `println()` mencetak teks ke console dan pindah baris.
 
 ---
+
+## 3. Perbedaan `val` dan `var` di Kotlin
+
+- `val` digunakan untuk nilai tetap (immutable), tidak bisa diubah setelah dideklarasi.
+- `var` digunakan untuk nilai yang bisa berubah (mutable).
+
+```kotlin
+val nama = "Kema" // tidak bisa diubah
+var umur = 23     // bisa diubah
+umur = 24
+```
+
+Pemilihan `val` disarankan jika nilai tidak perlu diubah, untuk mencegah bug.
+
+---
+
+## 4. Aturan Memberi Nama Variabel
+
+Saat membuat variabel di Kotlin:
+- Gunakan huruf, angka, dan simbol `_`.
+- Tidak boleh diawali dengan angka.
+- Gunakan gaya penulisan `camelCase`.
+
+Contoh nama variabel yang valid:
+```kotlin
+val namaLengkap = "Kema M. Yunus"
+val umurSekarang = 23
+```
+
+---
