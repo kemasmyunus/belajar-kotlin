@@ -103,3 +103,41 @@ val biodata = """
 ```
 
 ---
+
+## 7. Bermain dengan Angka
+
+Kotlin mendukung operasi matematika:
+```kotlin
+val a = 10
+val b = 3
+
+println(a + b) // 13
+println(a - b) // 7
+println(a * b) // 30
+println(a / b) // 3
+println(a % b) // 1
+```
+
+Untuk pembagian dengan hasil desimal, gunakan `toDouble()`:
+```kotlin
+println(a.toDouble() / b) // 3.333...
+```
+
+---
+
+## 8. Mengconvert Tipe Data
+
+Kotlin tidak mengkonversi tipe data otomatis. Harus dilakukan secara eksplisit:
+
+```kotlin
+val angkaStr = "123"
+val angka = angkaStr.toInt()
+
+val nilai = 99
+val nilaiStr = nilai.toString()
+```
+
+Metode umum:
+- `toInt()`, `toDouble()`, `toFloat()`, `toString()`, `toBoolean()`
+
+---
