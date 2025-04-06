@@ -141,3 +141,48 @@ Metode umum:
 - `toInt()`, `toDouble()`, `toFloat()`, `toString()`, `toBoolean()`
 
 ---
+
+## 9. Mengenal Karakter di Kotlin
+
+Tipe data `Char` menyimpan satu karakter saja:
+```kotlin
+val huruf: Char = 'A'
+val angka: Char = '5'
+```
+
+Karakter menggunakan tanda petik tunggal `'`. Tidak bisa berisi lebih dari satu karakter.
+
+---
+
+## 10. Mengenal Tipe Data Array
+
+Array menyimpan sekumpulan data:
+```kotlin
+val angka = arrayOf(1, 2, 3, 4)
+println(angka[0]) // cetak elemen pertama (1)
+```
+
+Deklarasi lain:
+```kotlin
+val huruf = arrayOf("a", "b", "c")
+val bilangan = intArrayOf(10, 20, 30)
+```
+
+---
+
+## 11. Beberapa Metode Array
+
+Kotlin menyediakan banyak fungsi siap pakai:
+```kotlin
+val angka = arrayOf(5, 2, 8, 1)
+
+println(angka.size)     // Jumlah elemen
+println(angka.first())  // Elemen pertama
+println(angka.last())   // Elemen terakhir
+println(angka.sorted()) // Mengurutkan elemen
+```
+
+Metode lainnya:
+- `contains()`, `indexOf()`, `sum()`, `average()`, `maxOrNull()`, `minOrNull()`
+
+---
