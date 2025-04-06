@@ -63,3 +63,43 @@ val umurSekarang = 23
 ```
 
 ---
+
+## 5. Deklarasi dengan Tipe Data
+
+Kotlin memiliki sistem tipe data yang kuat:
+```kotlin
+val umur: Int = 23
+val tinggi: Double = 1.75
+val aktif: Boolean = true
+```
+
+Tipe data umum:
+- `Int`, `Double`, `Float`, `Boolean`, `Char`, `String`
+
+Kotlin bisa menebak tipe data (type inference), jadi deklarasi seperti ini juga valid:
+```kotlin
+val nama = "Kema"
+```
+
+---
+
+## 6. Bermain dengan String
+
+```kotlin
+val nama = "Kema"
+val pesan = "Halo, saya $nama"
+println(pesan)
+```
+
+Fitur:
+- Interpolasi string dengan `$`
+- Multiline string dengan `"""..."""`
+
+```kotlin
+val biodata = """
+    Nama: Kema
+    Umur: 23
+""".trimIndent()
+```
+
+---
