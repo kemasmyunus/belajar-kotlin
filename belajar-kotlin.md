@@ -1,7 +1,13 @@
-# sejarah kotlin.
-**Kotlin** adalah bahasa pemrograman open source yang digunakan untuk mengembangkan aplikasi terutama android. Kotlin dikembangkan oleh JetBrains dan didukung oleh Google. kotlin dikenalkan oleh perusahaan JetBrains pada tahun 2011.<br>
-> Awalnya kotlin adalah bahasa pemrograman yang berjalan diatas JVM (Java Virtual Machine), bahasa ini populer di kalangan programmer java, namun sekarang kotlin sekarang sudah bisa berjalan diatas nodeJS atau bahkan native.<br>
-> 
-Kotlin didesain agar terintegrasi dengan bahasa pemrograman java dan teknologi java, hal ini karena java sendiri merupakan salah satu bahasa pemrograman paling populer di dunia yang mempunyai ekosistem yang sangat besar. apabila kotlin bisa terintegrasi langsung dengan java, secara otomatis programmer java nantinya tidak perlu lagi belajar teknologi baru. jadi cukup pindah bahasa ke kotli, programmer masih bisa memakai teknologi yang ada di java.<br>
-Pada tahun 2019, kotlin mulai populer karena google mengumumkan bahwa kotlin adalah bahasa pemrograman yang direkomendasikan untuk pengembangan aplikasi android
-> Pada saat awal android keluar, bahasa pemrograman utamanya adalah java, tahun 2019 diumumkan bahwa saat itu bahasa pemrograman utamanya adalah kotlin. sejak saat itu bahasa pemrograman kotlin mulai populer<br>
+# Sejarah Kotlin
+
+**Kotlin** adalah bahasa pemrograman open source yang dirancang untuk pengembangan aplikasi, terutama pada platform Android. Bahasa ini dikembangkan oleh perusahaan perangkat lunak JetBrains dan secara resmi didukung oleh Google. Kotlin pertama kali diperkenalkan ke publik oleh JetBrains pada tahun 2011.<br>
+
+> Awalnya, Kotlin dikembangkan sebagai bahasa pemrograman yang berjalan di atas Java Virtual Machine (JVM). Bahasa ini dengan cepat mendapat perhatian di kalangan pengembang Java karena kemampuannya yang modern dan efisien. Seiring perkembangan waktu, Kotlin kini juga dapat dijalankan di atas platform lain seperti Node.js, bahkan dikompilasi langsung ke kode native.<br>
+
+Kotlin didesain agar sepenuhnya interoperabel dengan bahasa dan ekosistem Java. Hal ini bukan tanpa alasan — Java merupakan salah satu bahasa pemrograman paling populer di dunia, dengan ekosistem yang luas dan matang. Dengan mengintegrasikan Kotlin secara mulus ke dalam teknologi Java, pengembang tidak perlu mempelajari ulang seluruh ekosistem baru. Mereka cukup beralih ke sintaks Kotlin tanpa kehilangan akses terhadap pustaka dan framework yang telah tersedia di Java.<br>
+
+Pada tahun 2019, Kotlin mengalami lonjakan popularitas yang signifikan setelah Google secara resmi merekomendasikannya sebagai bahasa utama untuk pengembangan aplikasi Android.
+
+> Sebelumnya, Java adalah bahasa utama dalam pengembangan Android sejak pertama kali sistem operasi tersebut diluncurkan. Namun, sejak pengumuman resmi dari Google pada tahun 2019, Kotlin mengambil alih posisi tersebut sebagai bahasa pemrograman utama untuk Android. Sejak saat itu, adopsi Kotlin terus meningkat di kalangan komunitas pengembang Android.<br>
+
+---
