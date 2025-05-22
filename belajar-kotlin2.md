@@ -109,3 +109,28 @@ println(nama?.length) // safe call
       }
   }
   ```
+
+### 7. **Collection**
+
+* **List, Set, Map**:
+
+  ```kotlin
+  val angka = listOf(1, 2, 3)
+  val data = mapOf("nama" to "Budi", "umur" to 22)
+  ```
+
+* **Mutable**:
+
+  ```kotlin
+  val mutable = mutableListOf("A", "B")
+  mutable.add("C")
+  ```
+
+### 8. **Extension Function**
+
+```kotlin
+fun String.terbalik(): String {
+    return this.reversed()
+}
+println("Kotlin".terbalik()) // niltoK
+```
