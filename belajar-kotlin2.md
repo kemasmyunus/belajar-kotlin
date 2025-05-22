@@ -70,3 +70,42 @@ fun salam(nama: String): String {
     return "Halo, $nama!"
 }
 ```
+
+### 5. **Nullable dan Null Safety**
+
+```kotlin
+var nama: String? = null
+println(nama?.length) // safe call
+```
+
+### 6. **Object-Oriented Programming (OOP)**
+
+* **Class & Object**:
+
+  ```kotlin
+  class Mahasiswa(val nama: String, val nim: String)
+
+  val mhs = Mahasiswa("Ani", "123")
+  println(mhs.nama)
+  ```
+
+* **Inheritance**:
+
+  ```kotlin
+  open class Hewan
+  class Kucing : Hewan()
+  ```
+
+* **Interface**:
+
+  ```kotlin
+  interface Terbang {
+      fun terbang()
+  }
+
+  class Burung : Terbang {
+      override fun terbang() {
+          println("Burung terbang")
+      }
+  }
+  ```
