@@ -134,3 +134,23 @@ fun String.terbalik(): String {
 }
 println("Kotlin".terbalik()) // niltoK
 ```
+
+
+### 9. **Latihan Mini Project**
+
+* Kalkulator sederhana
+* To-do list CLI
+* Aplikasi konversi suhu
+
+### 10. **Next Step: Android dengan Kotlin**
+
+* Instal Android Studio
+* Buat proyek "Hello World"
+* Pelajari:
+
+  * XML Layout & Activity
+  * Intent
+  * View Binding / Jetpack Compose
+  * RecyclerView, Fragment, MVVM
+
+---
