@@ -42,3 +42,39 @@ fun main() {
 ```
 
 ---
+
+### 🔹 **Latihan 3: Nullable & Null Safety**
+
+Tuliskan program yang menerima nama user, tapi bisa juga null.
+
+```kotlin
+fun main() {
+    var nama: String? = null
+    println("Panjang nama: ${nama?.length ?: "Nama tidak tersedia"}")
+}
+```
+
+---
+
+### 🔹 **Mini Project: Kalkulator Sederhana**
+
+Input: dua angka dan operator (`+`, `-`, `*`, `/`)
+Output: hasil perhitungan
+
+```kotlin
+fun kalkulator(a: Double, b: Double, op: Char): Double {
+    return when (op) {
+        '+' -> a + b
+        '-' -> a - b
+        '*' -> a * b
+        '/' -> if (b != 0.0) a / b else Double.NaN
+        else -> Double.NaN
+    }
+}
+
+fun main() {
+    println(kalkulator(10.0, 2.0, '*')) // Output: 20.0
+}
+```
+
+---
