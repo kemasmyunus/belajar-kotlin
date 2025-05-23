@@ -23,3 +23,22 @@ fun main() {
 ```
 
 ---
+
+### 🔹 **Latihan 2: Class & Object**
+
+Buat class `Mahasiswa` dengan properti `nama`, `nim`, dan method `perkenalan()`.
+
+```kotlin
+class Mahasiswa(val nama: String, val nim: String) {
+    fun perkenalan() {
+        println("Halo, saya $nama dengan NIM $nim")
+    }
+}
+
+fun main() {
+    val mhs = Mahasiswa("Rani", "2212001")
+    mhs.perkenalan()
+}
+```
+
+---
