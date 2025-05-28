@@ -64,3 +64,27 @@ println("Grade: $grade")
 ```
 
 ---
+
+## 3. Tips Penggunaan
+
+* Gunakan `if` untuk kondisi sederhana.
+* Gunakan `when` jika banyak kondisi dan nilai yang dibandingkan.
+* `when` juga bisa digunakan untuk tipe data lain, bahkan objek.
+
+---
+
+## 4. Contoh Praktis
+
+```kotlin
+fun cekJenisAngka(angka: Int): String {
+    return when {
+        angka % 2 == 0 -> "Genap"
+        else -> "Ganjil"
+    }
+}
+
+fun main() {
+    val angka = 7
+    println("Angka $angka adalah ${cekJenisAngka(angka)}")
+}
+```
