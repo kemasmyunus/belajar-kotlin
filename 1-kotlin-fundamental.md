@@ -13,13 +13,13 @@ Komentar :
 komentar ditandai dengan karakter //, sebuah komentar tidak akan dieksekusi oleh program, biasanya digunakan untuk menandai, memperjelas atau mendokumentasikan kode yang ditulis.
 
 ada dua macam komentar dalam kotlin.
-```
+```kotlin
 // ini adalah contoh komentar
 ```
 yaitu untuk singgle line seperti pada contoh diatas.
 
 dan ada juga komentar multi-line seperti pada contoh dibawah 
-```
+```kotlin
 /*
 ini adalah contoh komentar
 tapi ini bisa dua baris atau lebih
