@@ -17,11 +17,3 @@ ada dua macam komentar dalam kotlin.
 // ini adalah contoh komentar
 ```
 yaitu untuk singgle line seperti pada contoh diatas.
-
-dan ada juga komentar multi-line seperti pada contoh dibawah 
-```kotlin
-/*
-ini adalah contoh komentar
-tapi ini bisa dua baris atau lebih
-*/
-```
