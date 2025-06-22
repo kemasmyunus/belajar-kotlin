@@ -7,13 +7,3 @@ fun main(){
   println("Hello Kotlin")
 }
 ```
-
-Komentar :
-
-komentar ditandai dengan karakter //, sebuah komentar tidak akan dieksekusi oleh program, biasanya digunakan untuk menandai, memperjelas atau mendokumentasikan kode yang ditulis.
-
-ada dua macam komentar dalam kotlin.
-```kotlin
-// ini adalah contoh komentar
-```
-yaitu untuk singgle line seperti pada contoh diatas.
